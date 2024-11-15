@@ -1,0 +1,73 @@
+body {
+    background-color: #e3f6fa;
+    font-family: merriweather;
+  }
+  
+  header {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 30px;
+  }
+  
+  .container {
+    background-color: white;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .search-city {
+    background-color: #f0f9fa;
+    border: none;
+    width: 75%;
+    border-radius: 6px;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  .search-button {
+    background-color: #0eb8cb;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    padding: 20px;
+    border-radius: 6px;
+    font-size: 18px;
+  }
+  
+  .current-weather {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  h1 {
+    font-size: 45px;
+  }
+  
+  strong {
+    color: rgb(250, 117, 117);
+  }
+  .current-temp {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .weather-emoji {
+    font-size: 40px;
+  }
+  
+  .temperature-value {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+  .temperature-unit {
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+  }
+  
+  a {
+    color: #17a9b9;
+  }
+  
